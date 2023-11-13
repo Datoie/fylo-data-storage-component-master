@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Fylo data storage component</title>
+</head>
+<body>
+  <main>
+    <div class="header-left bacground-header">
+      <img class="main-logo" src="images/logo.svg" alt="mian logo of website">
+      <div class="doc-contianer">
+        <a href="#"><div class="doc-img">
+          <img src="images/icon-document.svg" alt="document icon">
+        </div></a>
+        <a href="#"><div class="doc-img">
+          <img src="images/icon-folder.svg" alt="folder icon">
+        </div></a>
+        <a href="#"><div class="doc-img">
+          <img src="images/icon-upload.svg" alt="upload icon">
+        </div></a>
+      </div>
+    </div>
+    <div class="header-right bacground-header">
+      <form action="Get">
+          <h2>You’ve used <span id="storeage-main"> 815 GB</span> of your storage</h2>
+          <div class="range-container">
+            <div class="coment-contianer">
+              <div class="coment-of-left-storage">
+                <h1><span>185</span> GB LEFT</h1>
+              <div class="triangle"></div>
+              </div>
+            </div>
+            <input type="range" min="0" max="100" value="100" id="storage" name="storage">
+          </div>
+          <div class="storage-container">
+            <label for="vol-min">0 GB</label>
+            <label for="vol-max">1000 GB</label>
+          </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
